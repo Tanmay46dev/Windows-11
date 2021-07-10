@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("bg.jpeg");
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.taskbar{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: #f2f2f2;
+}
+
+.startmenu{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.startmenu img{
+    border-radius: 12px;
+    /* width: 40%; */
+}
+
+.right{
+    position: absolute;
+    right: 0px;
+    margin: 5px 0px;
+    height: 85%;
+}
+
+.icons{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+.icons div{
+    width: 40px;
+    padding-left: 15px;
+}
+.icons #chrometxt{
+    padding-left: 12.5px;
+}
+
+.icons #edgeicon{
+    margin-top: 16px;
+    margin-left: 14px;
+}
+.icons #edgeicon+div{
+    /* color: red; */
+    padding-left: 20px;
+}
+
+.icons #edgeicon+div+img{
+    margin-top: 16px;
+    margin-left: 11px;
+}
+
+.icons #edgeicon+div+img+div{
+    padding-left: 13px;
+}
+
+.icons #edgeicon+div+img+div+div{
+    padding-left: 23px;
+}
